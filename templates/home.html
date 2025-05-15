@@ -1,0 +1,27 @@
+={% extends "base.html" %} {% block title %}
+<title>HomePage</title>
+{% endblock %} {% block header %}
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+{% endblock %} {% block content %}
+<div class="flex items-center justify-center p-10 space-x-8">
+  <div class="flex-shrink-0">
+    <img src="/static/hitesh the goat.png"" alt="Hitesh" class="w-64 h-auto
+    rounded-xl shadow-lg" />
+  </div>
+
+  <div class="max-w-xl">
+    <h1 class="text-3xl font-bold mb-4">Welcome to my Home Page.</h1>
+    <p class="text-lg leading-relaxed">
+      Welcome to my home page ☕️ My Name is Hitesh Choudhary and I am a teacher
+      by profession. I teach coding to various level of students, right from
+      beginners to folks who are already writing great software. I have been
+      teaching for more than 10 years now and it is my passion to teach people
+      coding. It's a great feeling when you teach someone and they get a job or
+      build something on their own. Before you ask, all buttons on this website
+      are inspired by Windows 7.
+    </p>
+  </div>
+</div>
+{% endblock %}
